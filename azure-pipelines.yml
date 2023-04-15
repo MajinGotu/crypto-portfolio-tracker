@@ -47,7 +47,10 @@ steps:
     git remote add azure https://$(PAT)@dev.azure.com/faroukfalah/CryptoPortfolioTracker/_git/CryptoTracker
     git checkout -b unitaire
     git pull github unitaire
+    git pull azure unitaire --no-commit --no-ff
+    git commit -m "Merge changes from Azure DevOps repository"
     git push azure HEAD:unitaire
   displayName: 'Push changes to Azure Repo'
   env:
     PAT: $(PAT)
+
