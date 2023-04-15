@@ -17,6 +17,8 @@ variables:
   PAT: $(Pipeline.PAT)
 
 steps:
+- checkout: self
+  persistCredentials: true
 - task: NuGetToolInstaller@1
 
 - task: NuGetCommand@2
