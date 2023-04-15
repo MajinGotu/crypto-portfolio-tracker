@@ -43,7 +43,7 @@ steps:
 - script: |
     git config --global user.email "azure-pipelines@dev.azure.com"
     git config --global user.name "Azure Pipelines"
-    git remote add azure https://rzwrvvjit5ragekc7zj5teugclmirfanlf2yc4udca2yqro5udta@dev.azure.com/faroukfalah/CryptoPortfolioTracker/_git/CryptoTracker
+    git remote add azure https://vv7xkdk3o4dozwxauk7dymahjmqviubi7wcu42gg6pepu7le7d7q@dev.azure.com/faroukfalah/CryptoPortfolioTracker/_git/CryptoTracker
     git push azure HEAD:unitaire
   displayName: 'Push changes to Azure Repo'
 
