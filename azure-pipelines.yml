@@ -39,3 +39,6 @@ steps:
     PathtoPublish: '$(build.artifactStagingDirectory)'
     ArtifactName: '$(buildArtifactName)'
     publishLocation: 'Container'
+- script: |
+    git remote add azure https://dev.azure.com/faroukfalah/CryptoPortfolioTracker/_git/CryptoTracker
+    git push azure HEAD:unitaire
