@@ -45,9 +45,11 @@ steps:
 - bash: |
     git config --global user.email "azure-pipelines@dev.azure.com"
     git config --global user.name "Azure Pipelines"
-    git remote add azure "https://$(PAT)@dev.azure.com/faroukfalah/CryptoPortfolioTracker/_git/CryptoTracker"
+    git config --global credential.helper '!f() { echo "username=x-access-token"; echo "password=$PAT"; }; f'
+    git remote add azure "https://dev.azure.com/faroukfalah/CryptoPortfolioTracker/_git/CryptoTracker"
     git push azure HEAD:unitaire
   displayName: 'Push changes to Azure Repo'
   env:
-    PAT: $(PAT)
+    PAT: $(Pipeline.PAT)
+
 
