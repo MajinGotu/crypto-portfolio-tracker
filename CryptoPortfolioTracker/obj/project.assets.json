@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ElMaistro\\source\\repos\\CryptoPortfolioTracker\\CryptoPortfolioTracker\\CryptoPortfolioTracker.csproj",
+      "projectUniqueName": "C:\\Users\\ElMaistro\\source\\repos\\crypto-portfolio-tracker\\CryptoPortfolioTracker\\CryptoPortfolioTracker.csproj",
       "projectName": "CryptoPortfolioTracker",
-      "projectPath": "C:\\Users\\ElMaistro\\source\\repos\\CryptoPortfolioTracker\\CryptoPortfolioTracker\\CryptoPortfolioTracker.csproj",
+      "projectPath": "C:\\Users\\ElMaistro\\source\\repos\\crypto-portfolio-tracker\\CryptoPortfolioTracker\\CryptoPortfolioTracker.csproj",
       "packagesPath": "C:\\Users\\ElMaistro\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ElMaistro\\source\\repos\\CryptoPortfolioTracker\\CryptoPortfolioTracker\\obj\\",
+      "outputPath": "C:\\Users\\ElMaistro\\source\\repos\\crypto-portfolio-tracker\\CryptoPortfolioTracker\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
