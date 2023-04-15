@@ -40,7 +40,7 @@ steps:
     PathtoPublish: '$(build.artifactStagingDirectory)'
     ArtifactName: '$(buildArtifactName)'
     publishLocation: 'Container'
- - script: |
+- script: |
     git config --global user.email "azure-pipelines@dev.azure.com"
     git config --global user.name "Azure Pipelines"
     git remote add azure https://$(PAT)@dev.azure.com/faroukfalah/CryptoPortfolioTracker/_git/CryptoTracker
@@ -48,4 +48,3 @@ steps:
   displayName: 'Push changes to Azure Repo'
   env:
     PAT: $(PAT)
-
